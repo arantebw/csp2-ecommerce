@@ -1,0 +1,133 @@
+create table reviews(
+id int auto_increment not null,
+rating int,
+text text,
+img varchar(255),
+date datetime,
+user_id int,
+primary key(id),
+foreign key(user_id)
+references users(id)
+on update cascade
+on delete set null
+);
+
+create table users(
+id int auto_increment not null,
+email_add varchar(255),
+first_name varchar(255),
+last_name varchar(255),
+dob datetime,
+primary key(id)
+);
+
+alter table beers
+add column pub_id int null,
+add foreign key(pub_id)
+references pubs(id)
+on update cascade
+on delete set null;
+
+create table pubs(
+id int auto_increment not null,
+name varchar(255),
+bus_add varchar(255),
+sched_open datetime,
+sched_close datetime,
+phone_num varchar(255),
+distributor_id int,
+primary key(id),
+foreign key(distributor_id)
+references distributors(id)
+on update cascade
+on delete set null
+);
+
+alter table beers
+add column distributor_id int null,
+add foreign key (distributor_id)
+references distributors(id)
+on update cascade
+on delete set null;
+
+create table distributors(
+id int auto_increment not null,
+name varchar(255),
+bus_add varchar(255),
+sched_open datetime,
+sched_close datetime,
+phone_num varchar(255),
+brewer_id int,
+primary key(id),
+foreign key(brewer_id)
+references brewers(id)
+on update cascade
+on delete set null
+);
+
+alter table beers
+add column brewer_id int null,
+add foreign key (brewer_id)
+references brewers(id)
+on update cascade
+on delete set null;
+
+create table brewers(
+id int auto_increment not null,
+name varchar(255) not null,
+bus_add varchar(255),
+sched_open datetime,
+sched_close datetime,
+phone_num varchar(255),
+primary key(id)
+);
+
+create table beers(
+id int auto_increment not null,
+name varchar(255) not null,
+text varchar(255),
+img varchar(255) not null,
+primary key(id)
+);
+
+**************************************************************
+
+create table playlists(
+    -> id int auto_increment not null,
+    -> date_created timestamp
+    -> default current_timestamp,
+    -> user_id int,
+    -> primary key(id),
+    -> foreign key(user_id)
+    -> references users(id)
+    -> on update cascade
+    -> on delete set null
+    -> );
+
+create table songs(
+    -> id int auto_increment not null,
+    -> title varchar(255) not null,
+    -> length int,
+    -> genre varchar(255),
+    -> album_id int,
+    -> primary key(id),
+    -> foreign key(album_id)
+    -> references albums(id)
+    -> on update cascade
+    -> on delete set null
+    -> );
+
+create table songs_playlists(
+id int auto_increment not null,
+song_id int null,
+playlist_id int null,
+primary key(id),
+foreign key(song_id)
+references songs(id)
+on update cascade
+on delete set null,
+foreign key(playlist_id)
+references playlists(id)
+on update cascade
+on delete set null
+);
