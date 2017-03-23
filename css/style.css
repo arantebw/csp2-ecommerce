@@ -1,13 +1,48 @@
 body {
 	font-family: "Roboto", sans-serif;
 }
+
 .main-header {
-	padding: 20px 0 20px 0;
+	padding: 10px 0 10px 0;
+}
+
+.main-header-right-col {
+	padding-top: 20px;
 }
 
 a.brand-name {
 	font-family: 'Lilita One', cursive;
 	font-size: 50px;
+}
+
+.carousel-inner img {
+	width: 100%;
+	margin: auto;
+	-webkit-filter: grayscale(90%);
+	filter: grayscale(90%);
+}
+
+.home-explorer {
+	font-family: "Lilita One", cursive;
+	position: absolute;
+	z-index: 2;
+	color: #fff;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-top: 100px;
+	
+}
+
+.home-explorer > h1 {
+	font-size: 55px;
+	text-align: center;
+}
+
+.home-explorer > span {
+	font-size: 22px;
+	display: block;
+	text-align: center;
 }
 
 .main-footer {
@@ -18,3 +53,5 @@ a.brand-name {
 .footer-fa {
 	padding: 10px;
 }
+
+

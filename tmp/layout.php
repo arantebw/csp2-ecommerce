@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 
-	<title><?= $title ?></title>
+	<title><?php echo $title ?></title>
 
 	<!-- Bootstrap -->
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
