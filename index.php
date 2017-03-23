@@ -1,2 +1,2 @@
 <!-- index.php -->
-<?php require "templates/landing.php" ?>
+<?php require "tmp/landing.php" ?>

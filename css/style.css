@@ -1,3 +1,20 @@
+body {
+	font-family: "Roboto", sans-serif;
+}
+.main-header {
+	padding: 20px 0 20px 0;
+}
+
+a.brand-name {
+	font-family: 'Lilita One', cursive;
+	font-size: 50px;
+}
+
+.main-footer {
+	background-color: lightgrey;
+	padding: 50px 0 50px 0;
+}
+
 .footer-fa {
 	padding: 10px;
 }
