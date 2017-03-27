@@ -19,6 +19,6 @@
 
 	include "main_footer.php";
 
-	include "layout.php"
+	include "layout.php";
 
 ?>

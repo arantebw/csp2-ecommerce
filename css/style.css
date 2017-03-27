@@ -1,12 +1,17 @@
 /* General rules */
 
+/*
+ * Beer color palette
+ * http://www.colourlovers.com/palette/433353/frosty_mug_of_beer
+ */
+
 body {
 	font-family: 'Bubbler One', sans-serif;
   letter-spacing: 1.5px;
 }
 
 hr.style14 {
-  width: 80%;
+  width: 50%;
   border: 0;
   height: 1px;
   background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
@@ -98,29 +103,33 @@ button.btn.btn-default.btn-default-personal {
 
 .review-section h1 {
   font-family: "Lilita One", cursive;
+  padding: 30px 0 30px 0;
 }
 
 /* Brewers section */
 
 .brewers-section h1 {
   font-family: "Lilita One", cursive;
+  padding: 30px 0 30px 0;
 }
 
 /* Distributors section */
 
 .distributors-section h1 {
   font-family: "Lilita One", cursive;
+  padding: 30px 0 30px 0;
 }
 
 /* Bars and pubs section */
 .pubs-section h1 {
   font-family: "Lilita One", cursive;
+  padding: 30px 0 30px 0;
 }
 
 /* Download the app section */
 
 .download-section {
-  padding: 50px 0 50px 0;
+  padding: 30px 0 30px 0;
 }
 
 .download-section h1 {
