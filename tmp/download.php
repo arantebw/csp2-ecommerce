@@ -19,11 +19,11 @@
   <div class="row download-section">
     <div class="col-lg-6">
       <a href="#"><img class="app-img" src="./img/playstore-button.png"></a>
-      <p>Coming soon</p>
+      <p style="margin-top:20px;">Coming soon</p>
     </div>
     <div class="col-lg-6">
       <a href="#"><img class="app-img" src="./img/appstore.png"></a>
-      <p>Coming soon</p>
+      <p style="margin-top:20px;">Coming soon</p>
     </div>
   </div>
 </div>

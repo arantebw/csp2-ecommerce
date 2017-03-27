@@ -13,6 +13,8 @@
 
   include "distributors.php";
 
+  include "pubs.php";
+
   include "download.php";
 
 	include "main_footer.php";

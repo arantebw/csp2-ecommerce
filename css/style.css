@@ -5,6 +5,16 @@ body {
   letter-spacing: 1.5px;
 }
 
+hr.style14 {
+  width: 80%;
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+
 /* Header */
 
 .main-header {
@@ -99,6 +109,11 @@ button.btn.btn-default.btn-default-personal {
 /* Distributors section */
 
 .distributors-section h1 {
+  font-family: "Lilita One", cursive;
+}
+
+/* Bars and pubs section */
+.pubs-section h1 {
   font-family: "Lilita One", cursive;
 }
 
