@@ -7,6 +7,8 @@
 
 	include "hero_banner.php";
 
+  include "download.php";
+
 	include "main_footer.php";
 
 	include "layout.php"

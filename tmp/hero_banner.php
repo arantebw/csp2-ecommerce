@@ -8,7 +8,7 @@
           <div class="input-group">
             <input type="text" class="form-control form-control-personal" placeholder="Find craft beers">
             <span class="input-group-btn">
-              <button class="btn btn-default btn-default-personal"><i class="fa fa-search" aria-hidden="true"></i></button>
+              <button class="btn btn-default btn-default-personal"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
             </span>
           </div>
         </div>

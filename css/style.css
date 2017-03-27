@@ -31,6 +31,7 @@ a.brand-name {
 	left: 0;
 	width: 100%;
 	padding-top: 100px;
+  letter-spacing: 1.5px;
 }
 
 .home-explorer > h1 {
@@ -55,7 +56,6 @@ a.brand-name {
 
 .form-control-personal {
   height: 80px;
-  padding-right: 30px;
 }
 
 input.form-control.form-control-personal {
@@ -70,10 +70,24 @@ input.form-control.form-control-personal {
   border-radius: 100px;
   background-color: rgba(255, 255, 255, 0.4);
   border: rgb(255, 255, 255);
+  padding: 0 30px 0 30px;
 }
 
 button.btn.btn-default.btn-default-personal {
   margin: 0;
+}
+
+.download-section {
+  padding: 50px 0 50px 0;
+}
+
+.download-section h1 {
+  font-family: "Lilita One", cursive;
+}
+
+.app-img {
+  height: 75px;
+  width: 230px;
 }
 
 .main-footer {
