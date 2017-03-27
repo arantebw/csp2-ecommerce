@@ -9,6 +9,8 @@
 
   include "reviews.php";
 
+  include "brewers.php";
+
   include "download.php";
 
 	include "main_footer.php";

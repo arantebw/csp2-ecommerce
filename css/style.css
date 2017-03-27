@@ -85,7 +85,14 @@ button.btn.btn-default.btn-default-personal {
 }
 
 /* Reviews section */
+
 .review-section h1 {
+  font-family: "Lilita One", cursive;
+}
+
+/* Brewers section */
+
+.brewers-section h1 {
   font-family: "Lilita One", cursive;
 }
 
