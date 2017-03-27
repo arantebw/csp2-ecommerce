@@ -11,6 +11,8 @@
 
   include "brewers.php";
 
+  include "distributors.php";
+
   include "download.php";
 
 	include "main_footer.php";
