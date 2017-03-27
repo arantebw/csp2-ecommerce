@@ -31,7 +31,6 @@ a.brand-name {
 	left: 0;
 	width: 100%;
 	padding-top: 100px;
-	
 }
 
 .home-explorer > h1 {
@@ -45,6 +44,38 @@ a.brand-name {
 	text-align: center;
 }
 
+.search-tool {
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.form-control-personal {
+  height: 80px;
+  padding-right: 30px;
+}
+
+input.form-control.form-control-personal {
+  padding-left: 30px;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: rgb(255, 255, 255);
+}
+
+.btn-default-personal {
+  height: 80px;
+  border-radius: 100px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border: rgb(255, 255, 255);
+}
+
+button.btn.btn-default.btn-default-personal {
+  margin: 0;
+}
+
 .main-footer {
 	background-color: lightgrey;
 	padding: 50px 0 50px 0;
@@ -53,5 +84,3 @@ a.brand-name {
 .footer-fa {
 	padding: 10px;
 }
-
-
