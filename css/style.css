@@ -1,5 +1,6 @@
 body {
-	font-family: "Roboto", sans-serif;
+	font-family: 'Bubbler One', sans-serif;
+  letter-spacing: 1.5px;
 }
 
 .main-header {
@@ -46,7 +47,7 @@ a.brand-name {
 }
 
 .search-tool {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Bubbler One', sans-serif;
   width: 50%;
   display: block;
   margin: 0 auto;

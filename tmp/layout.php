@@ -10,14 +10,14 @@
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 
 	<!-- Google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Lilita+One|Roboto" rel="stylesheet"> 
-	
+	<link href="https://fonts.googleapis.com/css?family=Lilita+One|Roboto|Kalam|Bubbler+One" rel="stylesheet"> 
+
 	<!-- Personal stylesheet -->
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
 
 </head>
 <body>
-	
+
 	<!-- Content -->
 
 	<!-- jQuery -->
@@ -28,7 +28,7 @@
 
 	<!-- Font awesome -->
 	<script src="https://use.fontawesome.com/63421b52b2.js"></script>
-    
+
     <!-- Personal script -->
     <script type="text/javascript" src="./js/script.js"></script>
 
