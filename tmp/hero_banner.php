@@ -1,3 +1,4 @@
+<!-- hero_banner.php -->
 <div id="myCarousel" class="carousel" data-ride="carousel">
     <div class="home-explorer">
       <h1>Discover local craft beers</h1>

@@ -1,7 +1,11 @@
+/* General rules */
+
 body {
 	font-family: 'Bubbler One', sans-serif;
   letter-spacing: 1.5px;
 }
+
+/* Header */
 
 .main-header {
 	padding: 10px 0 10px 0;
@@ -15,6 +19,8 @@ a.brand-name {
 	font-family: 'Lilita One', cursive;
 	font-size: 50px;
 }
+
+/* Hero banner */
 
 .carousel-inner img {
 	width: 100%;
@@ -78,6 +84,13 @@ button.btn.btn-default.btn-default-personal {
   margin: 0;
 }
 
+/* Reviews section */
+.review-section h1 {
+  font-family: "Lilita One", cursive;
+}
+
+/* Download the app section */
+
 .download-section {
   padding: 50px 0 50px 0;
 }
@@ -90,6 +103,8 @@ button.btn.btn-default.btn-default-personal {
   height: 75px;
   width: 230px;
 }
+
+/* Footer section */
 
 .main-footer {
 	background-color: lightgrey;

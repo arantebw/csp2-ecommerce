@@ -1,3 +1,4 @@
+<!-- tmp/main_footer.php -->
 <div class='main-footer containter-fluid'>
 	<div class='container'>
 		<div class='row'>
