@@ -24,15 +24,15 @@ hr.style14 {
 
 .main-header {
 	padding: 10px 0 10px 0;
+  background-color: rgb(230,219,172);
 }
 
 .main-header-right-col {
 	padding-top: 20px;
 }
 
-a.brand-name {
-	font-family: 'Lilita One', cursive;
-	font-size: 50px;
+.brand-name > img {
+  height: 80px;
 }
 
 /* Hero banner */
