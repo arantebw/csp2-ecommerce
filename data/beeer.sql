@@ -57,16 +57,16 @@ CREATE TABLE `brewers` (
 --
 
 INSERT INTO `brewers` (`id`, `name`, `bus_add`, `sched_open`, `sched_close`, `phone_num`, `img`) VALUES
-(1, 'Katipunan Craft Beer', 'Metro Manila', '08:00:00', '17:00:00', '639997785469', './img/default_pub.jpg'),
-(2, 'Craftpoint Brewing', 'Davao City', '08:00:00', '17:00:00', '639997785470', './img/default_pub.jpg'),
-(3, 'Fat Pauly''s', 'Iligan City', '08:00:00', '17:00:00', '639997785471', './img/default_pub.jpg'),
-(4, 'Turning Wheels Craft Brewery', 'Cebu City', '08:00:00', '17:00:00', '639997785472', './img/default_pub.jpg'),
-(5, 'Baguio Craft Brewery', 'Baguio City', '08:00:00', '17:00:00', '639997785473', './img/default_pub.jpg'),
-(6, 'The Cebruery', 'Cebu City', '08:00:00', '17:00:00', '639997785474', './img/default_pub.jpg'),
-(7, 'Joe?s Brew ', 'Davao City', '08:00:00', '17:00:00', '639997785475', './img/default_pub.jpg'),
-(8, 'Nipa Brew ', 'Metro Manila', '08:00:00', '17:00:00', '639997785476', './img/default_pub.jpg'),
-(9, 'Pedro Brewcrafters ', 'Metro Manila', '08:00:00', '17:00:00', '639997785477', './img/default_pub.jpg'),
-(10, 'The Brewery ', 'Metro Manila', '08:00:00', '17:00:00', '639997785478', './img/default_pub.jpg');
+(1, 'Katipunan Craft Beer', 'Metro Manila', '08:00:00', '17:00:00', '639997785469', './img/default_brewer.jpg'),
+(2, 'Craftpoint Brewing', 'Davao City', '08:00:00', '17:00:00', '639997785470', './img/default_brewer.jpg'),
+(3, 'Fat Pauly''s', 'Iligan City', '08:00:00', '17:00:00', '639997785471', './img/default_brewer.jpg'),
+(4, 'Turning Wheels Craft Brewery', 'Cebu City', '08:00:00', '17:00:00', '639997785472', './img/default_brewer.jpg'),
+(5, 'Baguio Craft Brewery', 'Baguio City', '08:00:00', '17:00:00', '639997785473', './img/default_brewer.jpg'),
+(6, 'The Cebruery', 'Cebu City', '08:00:00', '17:00:00', '639997785474', './img/default_brewer.jpg'),
+(7, 'Joe?s Brew ', 'Davao City', '08:00:00', '17:00:00', '639997785475', './img/default_brewer.jpg'),
+(8, 'Nipa Brew ', 'Metro Manila', '08:00:00', '17:00:00', '639997785476', './img/default_brewer.jpg'),
+(9, 'Pedro Brewcrafters ', 'Metro Manila', '08:00:00', '17:00:00', '639997785477', './img/default_brewer.jpg'),
+(10, 'The Brewery ', 'Metro Manila', '08:00:00', '17:00:00', '639997785478', './img/default_brewer.jpg');
 
 -- --------------------------------------------------------
 

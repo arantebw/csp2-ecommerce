@@ -33,6 +33,7 @@ hr.style14 {
 
 .brand-name > img {
   height: 80px;
+  vertical-align: middle;
 }
 
 /* Hero banner */
