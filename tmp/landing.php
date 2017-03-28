@@ -7,15 +7,15 @@
 
 	include "hero_banner.php";
 
-  include "reviews.php";
+	include "reviews.php";
 
-  include "brewers.php";
+	include "brewers.php";
 
-  include "distributors.php";
+	include "distributors.php";
 
-  include "pubs.php";
+	include "pubs.php";
 
-  include "download.php";
+	include "download.php";
 
 	include "main_footer.php";
 

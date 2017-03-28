@@ -6,7 +6,7 @@
  */
 
 body {
-	font-family: 'Bubbler One', sans-serif;
+	font-family: 'Roboto', sans-serif;
   letter-spacing: 1.5px;
 }
 
@@ -68,7 +68,7 @@ a.brand-name {
 }
 
 .search-tool {
-  font-family: 'Bubbler One', sans-serif;
+  font-family: 'Roboto', sans-serif;
   width: 50%;
   display: block;
   margin: 0 auto;
@@ -97,6 +97,11 @@ input.form-control.form-control-personal {
 
 button.btn.btn-default.btn-default-personal {
   margin: 0;
+}
+
+button.btn.btn-warning.btn-review {
+  padding: 20px;
+  color: #000;
 }
 
 /* Reviews section */

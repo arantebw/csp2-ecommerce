@@ -5,13 +5,15 @@
       <span>of the Philippines</span>
 
       <div class="row search-tool">
-        <div class="col-lg-12">
+        <div class="col-lg-12" style="text-align:center;">
           <div class="input-group">
             <input type="text" class="form-control form-control-personal" placeholder="Find craft beers">
             <span class="input-group-btn">
               <button class="btn btn-default btn-default-personal"><i class="fa fa-search fa-2x" aria-hidden="true"></i></button>
             </span>
           </div>
+            <br>
+            <button class="btn btn-warning btn-review">Review craft beer</button>
         </div>
       </div>
     </div>
