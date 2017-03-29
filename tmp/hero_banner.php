@@ -13,7 +13,7 @@
             </span>
           </div>
             <br>
-            <button class="btn btn-warning btn-review">Review craft beer</button>
+            <button class="btn btn-warning btn-review">Post a review</button>
         </div>
       </div>
     </div>

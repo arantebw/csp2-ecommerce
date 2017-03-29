@@ -7,7 +7,6 @@
 
 body {
 	font-family: 'Roboto', sans-serif;
-  letter-spacing: 1.5px;
 }
 
 hr.style14 {
@@ -110,6 +109,7 @@ button.btn.btn-warning.btn-review {
 .review-section h1 {
   font-family: "Lilita One", cursive;
   padding: 30px 0 30px 0;
+  letter-spacing: 1.5px;
 }
 
 /* Brewers section */
@@ -117,6 +117,26 @@ button.btn.btn-warning.btn-review {
 .brewers-section h1 {
   font-family: "Lilita One", cursive;
   padding: 30px 0 30px 0;
+  letter-spacing: 1.5px;
+}
+
+div.col-xs-4.brewer-img {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.brewer-img > img {
+  width: 100%;
+}
+
+.brewer-img > a > h5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 20px 0 0 0;
+  padding: 20px;
+  background-color: rgba(255,195,15,0.5);
+  color: #000;
 }
 
 /* Distributors section */
@@ -124,12 +144,15 @@ button.btn.btn-warning.btn-review {
 .distributors-section h1 {
   font-family: "Lilita One", cursive;
   padding: 30px 0 30px 0;
+  letter-spacing: 1.5px;
 }
 
 /* Bars and pubs section */
+
 .pubs-section h1 {
   font-family: "Lilita One", cursive;
   padding: 30px 0 30px 0;
+  letter-spacing: 1.5px;
 }
 
 /* Download the app section */
@@ -140,6 +163,7 @@ button.btn.btn-warning.btn-review {
 
 .download-section h1 {
   font-family: "Lilita One", cursive;
+  letter-spacing: 1.5px;
 }
 
 .app-img {
@@ -150,7 +174,6 @@ button.btn.btn-warning.btn-review {
 /* Footer section */
 
 .main-footer {
-	/*background-color: lightgrey;*/
 	padding: 50px 0 50px 0;
   background-color: rgb(153,146,115);
 }
