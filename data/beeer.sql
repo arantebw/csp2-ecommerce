@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 28, 2017 at 10:48 AM
+-- Generation Time: Mar 29, 2017 at 11:29 AM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -57,16 +57,16 @@ CREATE TABLE `brewers` (
 --
 
 INSERT INTO `brewers` (`id`, `name`, `bus_add`, `sched_open`, `sched_close`, `phone_num`, `img`) VALUES
-(1, 'Katipunan Craft Beer', 'Metro Manila', '08:00:00', '17:00:00', '639997785469', './img/default_brewer.jpg'),
-(2, 'Craftpoint Brewing', 'Davao City', '08:00:00', '17:00:00', '639997785470', './img/default_brewer.jpg'),
-(3, 'Fat Pauly''s', 'Iligan City', '08:00:00', '17:00:00', '639997785471', './img/default_brewer.jpg'),
-(4, 'Turning Wheels Craft Brewery', 'Cebu City', '08:00:00', '17:00:00', '639997785472', './img/default_brewer.jpg'),
-(5, 'Baguio Craft Brewery', 'Baguio City', '08:00:00', '17:00:00', '639997785473', './img/default_brewer.jpg'),
-(6, 'The Cebruery', 'Cebu City', '08:00:00', '17:00:00', '639997785474', './img/default_brewer.jpg'),
-(7, 'Joe?s Brew ', 'Davao City', '08:00:00', '17:00:00', '639997785475', './img/default_brewer.jpg'),
-(8, 'Nipa Brew ', 'Metro Manila', '08:00:00', '17:00:00', '639997785476', './img/default_brewer.jpg'),
-(9, 'Pedro Brewcrafters ', 'Metro Manila', '08:00:00', '17:00:00', '639997785477', './img/default_brewer.jpg'),
-(10, 'The Brewery ', 'Metro Manila', '08:00:00', '17:00:00', '639997785478', './img/default_brewer.jpg');
+(1, 'Katipunan Craft Beer (Brewer)', 'Metro Manila', '08:00:00', '17:00:00', '639997785469', './img/default_brewers.jpg'),
+(2, 'Craftpoint Brewing (Brewer)', 'Davao City', '08:00:00', '17:00:00', '639997785470', './img/default_brewers.jpg'),
+(3, 'Fat Pauly''s (Brewer)', 'Iligan City', '08:00:00', '17:00:00', '639997785471', './img/default_brewers.jpg'),
+(4, 'Turning Wheels Craft Brewery (Brewer)', 'Cebu City', '08:00:00', '17:00:00', '639997785472', './img/default_brewers.jpg'),
+(5, 'Baguio Craft Brewery (Brewer)', 'Baguio City', '08:00:00', '17:00:00', '639997785473', './img/default_brewers.jpg'),
+(6, 'The Cebruery (Brewer)', 'Cebu City', '08:00:00', '17:00:00', '639997785474', './img/default_brewers.jpg'),
+(7, 'Joe''s Brew (Brewer)', 'Davao City', '08:00:00', '17:00:00', '639997785475', './img/default_brewers.jpg'),
+(8, 'Nipa Brew (Brewer)', 'Metro Manila', '08:00:00', '17:00:00', '639997785476', './img/default_brewers.jpg'),
+(9, 'Pedro Brewcrafters (Brewer)', 'Metro Manila', '08:00:00', '17:00:00', '639997785477', './img/default_brewers.jpg'),
+(10, 'The Brewery (Brewer)', 'Metro Manila', '08:00:00', '17:00:00', '639997785478', './img/default_brewers.jpg');
 
 -- --------------------------------------------------------
 
@@ -78,8 +78,8 @@ CREATE TABLE `distributors` (
   `id` int(11) NOT NULL,
   `name` varchar(255) DEFAULT NULL,
   `bus_add` varchar(255) DEFAULT NULL,
-  `sched_open` datetime DEFAULT NULL,
-  `sched_close` datetime DEFAULT NULL,
+  `sched_open` time DEFAULT NULL,
+  `sched_close` time DEFAULT NULL,
   `phone_num` varchar(255) DEFAULT NULL,
   `brewer_id` int(11) DEFAULT NULL,
   `img` varchar(255) DEFAULT NULL
@@ -90,16 +90,16 @@ CREATE TABLE `distributors` (
 --
 
 INSERT INTO `distributors` (`id`, `name`, `bus_add`, `sched_open`, `sched_close`, `phone_num`, `brewer_id`, `img`) VALUES
-(1, 'Katipunan Craft Beer', 'Metro Manila', '2008-00-00 00:00:00', '2017-00-00 00:00:00', '639997785469', 10, './img/default_distributor.jpg'),
-(2, 'Craftpoint Brewing', 'Davao City', '2008-00-00 00:00:00', '2017-00-00 00:00:00', '639997785470', 9, './img/default_distributor.jpg'),
-(3, 'Fat Pauly''s', 'Iligan City', '2008-00-00 00:00:00', '2017-00-00 00:00:00', '639997785471', 8, './img/default_distributor.jpg'),
-(4, 'Turning Wheels Craft Brewery', 'Cebu City', '2008-00-00 00:00:00', '2017-00-00 00:00:00', '639997785472', 7, './img/default_distributor.jpg'),
-(5, 'Baguio Craft Brewery', 'Baguio City', '2008-00-00 00:00:00', '2017-00-00 00:00:00', '639997785473', 6, './img/default_distributor.jpg'),
-(6, 'The Cebruery', 'Cebu City', '2008-00-00 00:00:00', '2017-00-00 00:00:00', '639997785474', 5, './img/default_distributor.jpg'),
-(7, 'Joe?s Brew ', 'Davao City', '2008-00-00 00:00:00', '2017-00-00 00:00:00', '639997785475', 4, './img/default_distributor.jpg'),
-(8, 'Nipa Brew ', 'Metro Manila', '2008-00-00 00:00:00', '2017-00-00 00:00:00', '639997785476', 3, './img/default_distributor.jpg'),
-(9, 'Pedro Brewcrafters ', 'Metro Manila', '2008-00-00 00:00:00', '2017-00-00 00:00:00', '639997785477', 2, './img/default_distributor.jpg'),
-(10, 'The Brewery ', 'Metro Manila', '2008-00-00 00:00:00', '2017-00-00 00:00:00', '639997785478', 1, './img/default_distributor.jpg');
+(1, 'Katipunan Craft Beer', 'Metro Manila', '08:00:00', '17:00:00', '639997785469', 10, './img/default_distributor.jpg'),
+(2, 'Craftpoint Brewing', 'Davao City', '08:00:00', '17:00:00', '639997785470', 9, './img/default_distributor.jpg'),
+(3, 'Fat Pauly''s', 'Iligan City', '08:00:00', '17:00:00', '639997785471', 8, './img/default_distributor.jpg'),
+(4, 'Turning Wheels Craft Brewery', 'Cebu City', '08:00:00', '17:00:00', '639997785472', 7, './img/default_distributor.jpg'),
+(5, 'Baguio Craft Brewery', 'Baguio City', '08:00:00', '17:00:00', '639997785473', 6, './img/default_distributor.jpg'),
+(6, 'The Cebruery', 'Cebu City', '08:00:00', '17:00:00', '639997785474', 5, './img/default_distributor.jpg'),
+(7, 'Joe''s Brew', 'Davao City', '08:00:00', '17:00:00', '639997785475', 4, './img/default_distributor.jpg'),
+(8, 'Nipa Brew ', 'Metro Manila', '08:00:00', '17:00:00', '639997785476', 3, './img/default_distributor.jpg'),
+(9, 'Pedro Brewcrafters ', 'Metro Manila', '08:00:00', '17:00:00', '639997785477', 2, './img/default_distributor.jpg'),
+(10, 'The Brewery ', 'Metro Manila', '08:00:00', '17:00:00', '639997785478', 1, './img/default_distributor.jpg');
 
 -- --------------------------------------------------------
 
@@ -111,12 +111,28 @@ CREATE TABLE `pubs` (
   `id` int(11) NOT NULL,
   `name` varchar(255) DEFAULT NULL,
   `bus_add` varchar(255) DEFAULT NULL,
-  `sched_open` datetime DEFAULT NULL,
-  `sched_close` datetime DEFAULT NULL,
+  `sched_open` time DEFAULT NULL,
+  `sched_close` time DEFAULT NULL,
   `phone_num` varchar(255) DEFAULT NULL,
   `distributor_id` int(11) DEFAULT NULL,
   `img` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `pubs`
+--
+
+INSERT INTO `pubs` (`id`, `name`, `bus_add`, `sched_open`, `sched_close`, `phone_num`, `distributor_id`, `img`) VALUES
+(1, 'Katipunan Craft Beer (Pub)', 'Metro Manila', '08:00:00', '17:00:00', '639997785469', 10, './img/default_pub.jpg'),
+(2, 'Craftpoint Brewing (Pub)', 'Davao City', '08:00:00', '17:00:00', '639997785470', 9, './img/default_pub.jpg'),
+(3, 'Fat Pauly''s (Pub)', 'Iligan City', '08:00:00', '17:00:00', '639997785471', 8, './img/default_pub.jpg'),
+(4, 'Turning Wheels Craft Brewery (Pub)', 'Cebu City', '08:00:00', '17:00:00', '639997785472', 7, './img/default_pub.jpg'),
+(5, 'Baguio Craft Brewery (Pub)', 'Baguio City', '08:00:00', '17:00:00', '639997785473', 6, './img/default_pub.jpg'),
+(6, 'The Cebruery (Pub)', 'Cebu City', '08:00:00', '17:00:00', '639997785474', 5, './img/default_pub.jpg'),
+(7, 'Joe?s Brew (Pub)', 'Davao City', '08:00:00', '17:00:00', '639997785475', 4, './img/default_pub.jpg'),
+(8, 'Nipa Brew (Pub)', 'Metro Manila', '08:00:00', '17:00:00', '639997785476', 3, './img/default_pub.jpg'),
+(9, 'Pedro Brewcrafters (Pub)', 'Metro Manila', '08:00:00', '17:00:00', '639997785477', 2, './img/default_pub.jpg'),
+(10, 'The Brewery (Pub)', 'Metro Manila', '08:00:00', '17:00:00', '639997785478', 1, './img/default_pub.jpg');
 
 -- --------------------------------------------------------
 
@@ -216,7 +232,7 @@ ALTER TABLE `distributors`
 -- AUTO_INCREMENT for table `pubs`
 --
 ALTER TABLE `pubs`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT for table `reviews`
 --
