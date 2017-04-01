@@ -2,7 +2,7 @@
 <div class="container-fluid" style="text-align:center;">
   <div class="row download-section">
     <div class="col-lg-12">
-      <h1>Stay tuned, we'll soon have the app</h1>
+      <h1 id="download">Stay tuned, we'll soon have the app</h1>
     </div>
   </div>
   <div class="row downlaod-section">

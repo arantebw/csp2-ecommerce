@@ -35,6 +35,25 @@ hr.style14 {
   vertical-align: middle;
 }
 
+a.btn-main {
+  color: rgb(230,219,172);
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgb(153,146,115);
+}
+
+a.btn-main:hover {
+  background-color: #fff;
+  color: rgb(153,146,115);
+}
+
+i.btn-nav {
+  padding-top: 20%;
+}
+
 /* Hero banner */
 
 .carousel-inner img {
@@ -99,9 +118,9 @@ button.btn.btn-default.btn-default-personal {
   margin: 0;
 }
 
-button.btn.btn-warning.btn-review {
+button.btn.btn-danger.btn-review {
   padding: 20px;
-  color: #000;
+  color: #fff;
 }
 
 /* Reviews section */

@@ -13,7 +13,7 @@
             </span>
           </div>
             <br>
-            <button class="btn btn-warning btn-review">Post a review</button>
+            <button class="btn btn-danger btn-review">Post a review</button>
         </div>
       </div>
     </div>
