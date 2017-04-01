@@ -10,7 +10,6 @@
 
 	<div class="row">
 		<?php
-
 			include "connection.php";
 
 			# Retrieve 6 random records from database

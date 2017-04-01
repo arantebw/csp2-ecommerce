@@ -2,7 +2,7 @@
 <div class='main-footer containter-fluid'>
 	<div class='container'>
 		<div class='row'>
-			<div class='col-lg-6'>
+			<div class='col-xs-6'>
 				<ul>
 					<li><a href="#">About</a></li>
 					<li><a href="#">Blog</a></li>
@@ -12,7 +12,7 @@
 					<li>Download <a href="#">Android</a> or <a href="#">iOS</a> App</a></li>
 				</ul>
 			</div>
-			<div class='col-lg-6 text-right'>
+			<div class='col-xs-6 text-right'>
 				<p>Created by <a href='#'>Billy Wilson Arante</a> of Mandaluyong City, Philippines</p>
 				<p>Powered by <a href='#'>Tuitt Coding Bootcamp</a></p>
 
