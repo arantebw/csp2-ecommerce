@@ -43,6 +43,7 @@ a.btn-main {
   border-radius: 50%;
   text-align: center;
   background-color: rgb(153,146,115);
+  margin-left: 8px
 }
 
 a.btn-main:hover {
