@@ -34,12 +34,11 @@
       echo "
         <div class='col-xs-4 review-card'>
           <h3>" . $beer_name . "</h3>
+
           <a href='#'>
-            <img class='image' src='" . $review_img . "'>
-            <div class='middle'>
-              <div class='text'>Read more</div>
-            </div>
+            <img class='image' src='" . $review_img . "' title='See full review'>
           </a>
+
           <div class='row'>
             <div class='col-xs-6 user-img'>
               <img src='./img/img_avatar.png'>
@@ -49,7 +48,7 @@
               <p>Rating: " . $user_rating . "</p>
             </div>
           </div>
-          <p style='color:grey;'>" . $user_feedback . "</p>
+          <div class='user-feedback manage-text-overflow' style='color:grey;'>" . $user_feedback . "</div>
         </div>
       ";
     }

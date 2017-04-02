@@ -18,25 +18,25 @@
       </div>
     </div>
 
-    <div class="carousel-inner" role="listbox" style="height:600;">
+    <div class="carousel-inner" role="listbox" style="height:600px;">
       <div class="item active">
-        <img src="./img/beer1.jpg" width="100%">
+        <img src="./img/beer1.jpg" style="width:100%;height:auto;">
       </div>
 
       <div class="item">
-        <img src="./img/beer2.jpg" width="100%">
+        <img src="./img/beer2.jpg" style="width:100%;height:auto;">
       </div>
 
       <div class="item">
-        <img src="./img/beer3.jpg" width="100%">
+        <img src="./img/beer3.jpg" style="width:100%;height:auto;">
       </div>
 
       <div class="item">
-        <img src="./img/beer4.jpg" width="100%">
+        <img src="./img/beer4.jpg" style="width:100%;height:auto;">
       </div>
 
       <div class="item">
-        <img src="./img/beer5.jpg" width="100%">
+        <img src="./img/beer5.jpg" style="width:100%;height:auto;">
       </div>
     </div>
 </div>
