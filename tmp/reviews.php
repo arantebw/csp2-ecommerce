@@ -13,27 +13,41 @@
     include "connection.php";
 
     $query = "
-      select reviews.img, beers.name, users.first_name, users.last_name
-      from reviews
-      inner join beers on reviews.beer_id = beers.id
-      inner join users on reviews.user_id = users.id
-      order by rand()
-      limit 0,6;";
+    select reviews.img as r_img, beers.name, users.first_name, users.last_name, reviews.rating, reviews.text
+    from reviews
+    inner join beers on reviews.beer_id = beers.id
+    inner join users on reviews.user_id = users.id
+    order by rand()
+    limit 0,6;
+    ";
 
     $result = mysqli_query($conn, $query);
 
     while ($row = mysqli_fetch_assoc($result)) {
-      $review_img = $row["img"];
+      $review_img = $row["r_img"];
       $beer_name = $row["name"];
       $user_fname = $row["first_name"];
       $user_lname = $row["last_name"];
+      $user_rating = $row["rating"];
+      $user_feedback = $row["text"];
 
       echo "
-      <div class='col-xs-4 review-card'>
-        <h3>" . $beer_name . "</h3>
-        <img src='" . $review_img . "'>
-        <p>" . $user_fname . " " . $user_lname[0] . ".</p>
-      </div>
+        <div class='col-xs-4 review-card'>
+          <h3>" . $beer_name . "</h3>
+          <a href='#'>
+            <img src='" . $review_img . "'>
+          </a>
+          <div class='row'>
+            <div class='col-xs-6 user-img'>
+              <img src='./img/img_avatar.png'>
+            </div>
+            <div class='col-xs-6 user-details'>
+              <p>" . $user_fname . " " . $user_lname[0] . ".</p>
+              <p>Rating: " . $user_rating . "</p>
+            </div>
+          </div>
+          <p style='color:grey;'>" . $user_feedback . "</p>
+        </div>
       ";
     }
     ?>

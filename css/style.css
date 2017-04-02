@@ -6,7 +6,7 @@
  */
 
 body {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 }
 
 hr.style14 {
@@ -89,7 +89,7 @@ i.btn-nav {
 }
 
 .search-tool {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Comfortaa', sans-serif;
   width: 50%;
   display: block;
   margin: 0 auto;
@@ -138,7 +138,39 @@ div.col-xs-4.review-card {
   padding-right: 0;
 }
 
-.review-card > img {
+div.col-xs-4.review-card > h3 {
+  margin: 30px 0 30px 0;
+}
+
+div.col-xs-4.review-card > div.row {
+  margin-top: 30px;
+}
+
+div.col-xs-4.review-card > div.row > div.col-xs-6.user-img {
+  text-align: right;
+}
+
+div.col-xs-4.review-card > div.row > div.col-xs-6.user-details {
+  text-align: left;
+}
+
+div.col-xs-4.review-card > div.row > div.col-xs-6 > img {
+  height: 50px;
+  width: 50px;
+  border: 1px solid lightgrey;
+  border-radius:50%;
+}
+
+div.col-xs-4.review-card > p {
+  height: 55px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 30px;
+  padding:0 80px 0 80px;
+}
+
+.review-card > a > img {
   width: 100%;
 }
 

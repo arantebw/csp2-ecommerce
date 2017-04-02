@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 
 	<!-- Google fonts -->
-	<link href="https://fonts.googleapis.com/css?family=Lilita+One|Roboto|Kalam|Bubbler+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lilita+One|Roboto|Kalam|Bubbler+One|Comfortaa:400" rel="stylesheet">
 
 	<!-- Personal stylesheet -->
 	<link rel="stylesheet" type="text/css" href="./css/style.css">
