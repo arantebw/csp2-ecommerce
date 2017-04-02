@@ -124,6 +124,31 @@ button.btn.btn-danger.btn-review {
   color: #fff;
 }
 
+div.modal-header {
+  background-color: rgb(230,219,172);
+  text-align: center;
+}
+
+div.modal-footer {
+  background-color: transparent;
+  text-align: center;
+}
+
+div.col-xs-2.text-center.ratings {
+  width: 20%;
+}
+
+div.col-xs-12 > textarea.text {
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  border: none;
+  background-color: #F2F3F4;
+  resize: none;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
 /* Reviews section */
 
 .review-section h1 {
@@ -237,6 +262,10 @@ div.col-xs-4.brewer-img {
 .main-footer {
 	padding: 50px 0 50px 0;
   background-color: rgb(153,146,115);
+}
+
+.main-footer .footer-links a {
+  color: rgb(0,0,0);
 }
 
 .footer-fa {

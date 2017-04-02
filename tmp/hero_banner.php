@@ -13,7 +13,7 @@
             </span>
           </div>
             <br>
-            <button class="btn btn-danger btn-review">Post a review</button>
+            <button class="btn btn-danger btn-review" data-toggle="modal" data-target="#myModal">Post a review</button>
         </div>
       </div>
     </div>
@@ -39,4 +39,64 @@
         <img src="./img/beer5.jpg" style="width:100%;height:auto;">
       </div>
     </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog modal-lg">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h2 class="modal-title">Write your craft beer review</h2>
+      </div>
+
+      <div class="modal-body">
+        <form class="text-center">
+          <h3>How would you rate this craft beer?</h3>
+          <fieldset class="row" style="margin:0 auto;">
+            <div class="col-xs-2 text-center ratings">
+              <input id="rating1" type="radio" name="r_rating" value="1">
+              <br>
+              <span>Hated</span>
+            </div>
+            <div class="col-xs-2 text-center ratings">
+              <input id="rating2" type="radio" name="r_rating" value="2">
+              <br>
+              <span>Disliked</span>
+            </div>
+            <div class="col-xs-2 text-center ratings">
+              <input id="rating3" type="radio" name="r_rating" value="3">
+              <br>
+              <span>Was OK</span>
+            </div>
+            <div class="col-xs-2 text-center ratings">
+              <input id="rating4" type="radio" name="r_rating" value="4">
+              <br>
+              <span>Liked</span>
+            </div>
+            <div class="col-xs-2 text-center ratings">
+              <input id="rating5" type="radio" name="r_rating" value="5">
+              <br>
+              <span>Loved</span>
+            </div>
+            <div class="col-xs-12">
+              <textarea class="text" name="r_text"></textarea>
+            </div>
+            <div>
+              <input type="file" name="r_pic">
+            </div>
+            <div>
+              <?php echo date("Y-m-d") . " " . date("H:i:s"); ?>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-danger">Submit</button>
+      </div>
+    </div>
+
+  </div>
 </div>
