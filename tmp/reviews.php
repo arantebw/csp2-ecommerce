@@ -35,7 +35,10 @@
         <div class='col-xs-4 review-card'>
           <h3>" . $beer_name . "</h3>
           <a href='#'>
-            <img src='" . $review_img . "'>
+            <img class='image' src='" . $review_img . "'>
+            <div class='middle'>
+              <div class='text'>Read more</div>
+            </div>
           </a>
           <div class='row'>
             <div class='col-xs-6 user-img'>
