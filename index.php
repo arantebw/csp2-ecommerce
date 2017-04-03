@@ -6,4 +6,8 @@
 <!-- Client secret -->
 <!-- rBl8lnXlz0_av8V41-MXFbKb -->
 
-<?php require "tmp/landing.php" ?>
+<?php
+
+  require "./landing.php";
+
+?>
