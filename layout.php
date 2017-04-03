@@ -37,6 +37,13 @@
 
       case 'login.php':
         include "main_header.php";
+        include "sign_in.php";
+        include "download.php";
+        include "main_footer.php";
+
+      case 'sign_up.php':
+        include "main_header.php";
+        include 'sign_up_form.php';
         include "download.php";
         include "main_footer.php";
 

@@ -271,3 +271,42 @@ div.col-xs-4.brewer-img {
 .footer-fa {
 	padding: 10px;
 }
+
+
+/* Sign in/sign up page */
+
+.sign-btn {
+  padding: 20px;
+  width: 100%;
+}
+
+form.sign-form {
+  border: 3px solid #f1f1f1;
+  width: 80%;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.sign-container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  float:left;
+  /*background-color: #f44336;*/
+}
