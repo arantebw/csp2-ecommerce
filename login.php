@@ -1,7 +1,15 @@
 <!-- tmp/login.php -->
 <?php
+  session_start();
+
   $current_page = basename($_SERVER['PHP_SELF']);
-  $title = "Beeer | Sign In / Sign Up";
+
+  if (isset($_SESSION['user'])) {
+    $page_title = 'User Profile';
+  } else {
+    $page_title = 'Sign In / Sign Up';
+  }
+  $title = 'Beeer | ' . $page_title;
 
   require_once "./layout.php";
 ?>

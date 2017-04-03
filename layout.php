@@ -20,8 +20,7 @@
 <body>
 
 	<!-- Content -->
-  <?php
-
+  <?php  
     switch($current_page) {
 
       case 'index.php':
@@ -40,6 +39,7 @@
         require_once "sign_in.php";
         require_once "download.php";
         require_once "main_footer.php";
+        break;
 
       case 'sign_up.php':
         require_once "main_header.php";

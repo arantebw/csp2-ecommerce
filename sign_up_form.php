@@ -3,7 +3,7 @@
   <h1>Sign up form</h1>
 
 
-  <form method="post" action="" class="sign-form" style='margin:0 auto;'>
+  <form method="post" action="add_item.php" class="sign-form" style='margin:0 auto;'>
     <div class="imgcontainer">
       <img src="./img/img_avatar.png" alt="Avatar" class="avatar">
     </div>
@@ -35,21 +35,25 @@
 
       <div class="form-group">
         <?php
-          echo "
-          <label>Name</label><br>
-          <input class='sign-btn' type='text' name='fname' placeholder='Enter first name'>
-          <br><br>
-          <input class='sign-btn' type='text' name='lname' placeholder='Enter last name'>
-          ";
+          if (!isset($_SESSION['user'])) {
+            echo "
+            <label>Name</label><br>
+            <input class='sign-btn' type='text' name='fname' placeholder='Enter first name'>
+            <br><br>
+            <input class='sign-btn' type='text' name='lname' placeholder='Enter last name'>
+            ";
+          }
         ?>
       </div>
 
       <div class="form-group">
         <?php
-          echo "
-          <label>Date of birth</label><br>
-          <input class='sign-btn' type='date'>
-          ";
+          if (!isset($_SESSION['user'])) {
+            echo "
+            <label>Date of birth</label><br>
+            <input class='sign-btn' type='date' name='dob'>
+            ";
+          }
         ?>
       </div>
 

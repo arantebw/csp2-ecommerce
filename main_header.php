@@ -17,7 +17,17 @@
 
         <a href="#download" class="btn-main" title="Download App"><i class="fa fa-download fa-2x btn-nav" aria-hidden="true"></i></a>
 
-        <a href="./login.php" class="btn-main" title="Sign In / Sign Up"><i class="fa fa-power-off fa-2x btn-nav" aria-hidden="true"></i></a>
+        <?php
+          if (!isset($_SESSION['user'])) {
+            echo "
+            <a href='./login.php' class='btn-main' title='Sign In / Sign Up'><i class='fa fa-power-off fa-2x btn-nav' aria-hidden='true'></i></a>
+            ";
+          } else {
+            echo "
+            <a href='./login.php' class='btn-main' title='User Profile'><i class='fa fa-user fa-2x btn-nav' aria-hidden='true'></i></a>
+            ";
+          }
+        ?>
 			</div>
 		</div>
 	</div>
