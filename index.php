@@ -8,6 +8,6 @@
 
 <?php
 
-  require "./landing.php";
+  require_once "./landing.php";
 
 ?>

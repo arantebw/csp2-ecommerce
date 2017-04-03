@@ -10,7 +10,7 @@
 
   <div class="row">
     <?php
-      include "connection.php";
+      require_once "connection.php";
 
       $query = "
       select reviews.img as r_img, beers.name, users.first_name, users.last_name, reviews.rating, reviews.text

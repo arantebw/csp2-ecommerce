@@ -25,27 +25,27 @@
     switch($current_page) {
 
       case 'index.php':
-        include "main_header.php";
-        include "hero_banner.php";
-        include "reviews.php";
-        include "brewers.php";
-        include "distributors.php";
-        include "pubs.php";
-        include "download.php";
-        include "main_footer.php";
+        require_once "main_header.php";
+        require_once "hero_banner.php";
+        require_once "reviews.php";
+        require_once "brewers.php";
+        require_once "distributors.php";
+        require_once "pubs.php";
+        require_once "download.php";
+        require_once "main_footer.php";
         break;
 
       case 'login.php':
-        include "main_header.php";
-        include "sign_in.php";
-        include "download.php";
-        include "main_footer.php";
+        require_once "main_header.php";
+        require_once "sign_in.php";
+        require_once "download.php";
+        require_once "main_footer.php";
 
       case 'sign_up.php':
-        include "main_header.php";
-        include 'sign_up_form.php';
-        include "download.php";
-        include "main_footer.php";
+        require_once "main_header.php";
+        require_once 'sign_up_form.php';
+        require_once "download.php";
+        require_once "main_footer.php";
 
       default:
         break;

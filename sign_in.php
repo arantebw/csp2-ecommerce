@@ -2,7 +2,7 @@
   session_start();
 
 	if($_SERVER['REQUEST_METHOD'] == 'POST'){
-		include('connection.php');
+		require_once('connection.php');
 
   	$email_add = $_POST['email_add'];
 		$password = sha1($_POST['password']);
@@ -73,7 +73,7 @@
 
             <div class='sign-container' style='background-color:#f1f1f1'>
               <a href='./sign_up.php' class='btn btn-warning cancelbtn' type='button' name='sign_up' style='padding:20px;'>Sign Up</a>
-              <span class='psw'>Forgot <a href='#'>password?</a></span>
+              <span class='psw'>Forgot <a href='#'>password</a>?</span>
               <div class='clearfix'></div>
             </div>
             ";
