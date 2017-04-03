@@ -7,7 +7,6 @@
 <!-- rBl8lnXlz0_av8V41-MXFbKb -->
 
 <?php
-
+  session_start();
   require_once "./landing.php";
-
 ?>

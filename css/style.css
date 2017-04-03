@@ -308,5 +308,19 @@ span.psw {
   width: auto;
   padding: 10px 18px;
   float:left;
-  /*background-color: #f44336;*/
+}
+
+/* User profile */
+
+div.profile {
+  padding: 10px;
+}
+
+input.profile {
+  padding: 10px;
+}
+
+button.update-btn {
+  width: 100%;
+  padding: 20px;
 }

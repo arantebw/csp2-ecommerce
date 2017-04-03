@@ -1,4 +1,6 @@
 <?php
+  // session_start();
+
 	if($_SERVER['REQUEST_METHOD'] == 'POST'){
 		require_once('connection.php');
 
@@ -36,6 +38,12 @@
       <p><strong>" . $_SESSION['user'] . "</strong> is the current user.</p>
       ";
     }
+    ?>
+
+    <?php
+      if (isset($_SESSION['user'])) {
+        require_once('user_profile.php');
+      }
     ?>
 
     <div class='sign-container'>

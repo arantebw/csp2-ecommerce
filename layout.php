@@ -20,7 +20,7 @@
 <body>
 
 	<!-- Content -->
-  <?php  
+  <?php
     switch($current_page) {
 
       case 'index.php':
