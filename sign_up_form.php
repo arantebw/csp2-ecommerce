@@ -2,7 +2,6 @@
 <div class='container text-center'>
   <h1>Sign up form</h1>
 
-
   <form method="post" action="add_item.php" class="sign-form" style='margin:0 auto;'>
     <div class="imgcontainer">
       <img src="./img/img_avatar.png" alt="Avatar" class="avatar">

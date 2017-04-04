@@ -47,6 +47,20 @@
         require_once "download.php";
         require_once "main_footer.php";
 
+      case 'user.php':
+        require_once "main_header.php";
+        require_once "user_profile.php";
+        require_once "download.php";
+        require_once "main_footer.php";
+        break;
+
+      case 'edit.php':
+        require_once "main_header.php";
+        require_once "edit_item.php";
+        require_once "download.php";
+        require_once "main_footer.php";
+        break;
+
       default:
         break;
     }

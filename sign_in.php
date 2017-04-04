@@ -2,10 +2,10 @@
   // session_start();
 
 	if($_SERVER['REQUEST_METHOD'] == 'POST'){
-		require_once('connection.php');
+		require_once('./connection.php');
 
-  	$email_add = $_POST['email_add'];
-		$password = sha1($_POST['password']);
+    $email_add = $_POST['email_add'];
+    $password = sha1($_POST['password']);
 
     $sql = "
     select *
@@ -35,15 +35,9 @@
     <?php
     if (isset($_SESSION['user'])) {
       echo "
-      <p><strong>" . $_SESSION['user'] . "</strong> is the current user.</p>
+      <p><strong><a title='View your profile' href='./user.php'>" . $_SESSION['user'] . "</a></strong> is the current user.</p>
       ";
     }
-    ?>
-
-    <?php
-      if (isset($_SESSION['user'])) {
-        require_once('user_profile.php');
-      }
     ?>
 
     <div class='sign-container'>

@@ -283,6 +283,8 @@ div.col-xs-4.brewer-img {
 form.sign-form {
   border: 3px solid #f1f1f1;
   width: 80%;
+  padding: 30px;
+  margin: 0 auto;
 }
 
 .imgcontainer {
@@ -320,7 +322,7 @@ input.profile {
   padding: 10px;
 }
 
-button.update-btn {
+button.update-btn, a.update-btn {
   width: 100%;
   padding: 20px;
 }
