@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Apr 04, 2017 at 06:03 PM
+-- Generation Time: Apr 05, 2017 at 02:30 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 7.1.1
 
@@ -380,19 +380,16 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email_add`, `first_name`, `last_name`, `dob`, `pwd`) VALUES
-(1, 'billywilson.alabado@macromedia.com', 'Billy Wilson', 'abcdefg', '2017-04-05', '7b52009b64fd0a2a49e6d8a939753077792b0554'),
-(2, 'ariley0@stumbleupon.com', 'Annie', 'Riley', '0000-00-00', '356a192b7913b04c54574d18c28d46e6395428ab'),
-(3, 'pdiaz1@mapy.cz', 'Phyllis', 'Diaz', '0000-00-00', '356a192b7913b04c54574d18c28d46e6395428ab'),
-(4, 'wadams2@livejournal.com', 'Willie', 'Adams', '0000-00-00', '356a192b7913b04c54574d18c28d46e6395428ab'),
-(5, 'jscott3@barnesandnoble.com', 'Joseph', 'Scott', '0000-00-00', '356a192b7913b04c54574d18c28d46e6395428ab'),
-(6, 'cjohnson4@youku.com', 'Craig', 'Johnson', '0000-00-00', '356a192b7913b04c54574d18c28d46e6395428ab'),
-(7, 'ahunt5@vistaprint.com', 'Anthony', 'Hunt', '0000-00-00', '356a192b7913b04c54574d18c28d46e6395428ab'),
-(8, 'khayes6@ow.ly', 'Keith', 'Hayes', '0000-00-00', '356a192b7913b04c54574d18c28d46e6395428ab'),
-(9, 'rjenkins7@economist.com', 'Roy', 'Jenkins', '0000-00-00', '356a192b7913b04c54574d18c28d46e6395428ab'),
-(10, 'cboyd8@barnesandnoble.com', 'Christopher', 'Boyd', '0000-00-00', '356a192b7913b04c54574d18c28d46e6395428ab'),
-(12, 'arantebillywilson@yahoo.com', 'Billy Wilson', 'Arante', '2017-04-04', '356a192b7913b04c54574d18c28d46e6395428ab'),
-(13, 'arantebillywilson@yahoo.com', 'Billy Wilson', 'Arante', '2017-04-05', '356a192b7913b04c54574d18c28d46e6395428ab'),
-(14, 'arantebillywilson@yahoo.com', 'Bryan', 'Arante', '2017-04-06', '356a192b7913b04c54574d18c28d46e6395428ab');
+(1, 'ariley0@stumbleupon.com', 'Annie', 'Riley', '0000-00-00', '3da541559918a808c2402bba5012f6c60b27661c'),
+(2, 'pdiaz1@mapy.cz', 'Phyllis', 'Diaz', '0000-00-00', '4da541559918a808c2402bba5012f6c60b27661c'),
+(3, 'wadams2@livejournal.com', 'Willie', 'Adams', '0000-00-00', '5da541559918a808c2402bba5012f6c60b27661c'),
+(4, 'jscott3@barnesandnoble.com', 'Joseph', 'Scott', '0000-00-00', '6da541559918a808c2402bba5012f6c60b27661c'),
+(5, 'cjohnson4@youku.com', 'Craig', 'Johnson', '0000-00-00', '7da541559918a808c2402bba5012f6c60b27661c'),
+(6, 'ahunt5@vistaprint.com', 'Anthony', 'Hunt', '0000-00-00', '8da541559918a808c2402bba5012f6c60b27661c'),
+(7, 'khayes6@ow.ly', 'Keith', 'Hayes', '0000-00-00', '9da541559918a808c2402bba5012f6c60b27661c'),
+(8, 'rjenkins7@economist.com', 'Roy', 'Jenkins', '0000-00-00', '10da541559918a808c2402bba5012f6c60b27661c'),
+(9, 'cboyd8@barnesandnoble.com', 'Christopher', 'Boyd', '0000-00-00', '11da541559918a808c2402bba5012f6c60b27661c'),
+(10, 'ppeterson9@macromedia.com', 'Patricia', 'Peterson', '0000-00-00', '12da541559918a808c2402bba5012f6c60b27661c');
 
 --
 -- Indexes for dumped tables
@@ -472,7 +469,7 @@ ALTER TABLE `reviews`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- Constraints for dumped tables
 --
