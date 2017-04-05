@@ -63,7 +63,7 @@
         <button type="submit" class="btn btn-default update-btn">Edit</button>
       </div>
       <div class="col-xs-6">
-        <button type="button" class="btn btn-default update-btn">Delete</button>
+        <a href="./delete.php?id=<?php echo $id ?>" type="button" class="btn btn-default update-btn">Delete</a>
       </div>
     </div>
   </form>

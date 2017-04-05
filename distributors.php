@@ -1,4 +1,4 @@
-require_once<!-- tmp/distributors.php -->
+<!-- tmp/distributors.php -->
 <div class="container distributors-section" style="text-align:center;">
   <div class="row">
     <div class="col-lg-12">
