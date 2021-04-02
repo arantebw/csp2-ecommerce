@@ -9,7 +9,7 @@
   <div class="row">
     <?php
 
-      include "connection.php";
+      require_once "connection.php";
 
       # Retrieve 6 random records from database
       $query = "select * from distributors order by rand() limit 0,6;";

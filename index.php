@@ -6,4 +6,7 @@
 <!-- Client secret -->
 <!-- rBl8lnXlz0_av8V41-MXFbKb -->
 
-<?php require "tmp/landing.php" ?>
+<?php
+  session_start();
+  require_once "./landing.php";
+?>

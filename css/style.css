@@ -124,6 +124,31 @@ button.btn.btn-danger.btn-review {
   color: #fff;
 }
 
+div.modal-header {
+  background-color: rgb(230,219,172);
+  text-align: center;
+}
+
+div.modal-footer {
+  background-color: transparent;
+  text-align: center;
+}
+
+div.col-xs-2.text-center.ratings {
+  width: 20%;
+}
+
+div.col-xs-12 > textarea.text {
+  width: 100%;
+  height: 200px;
+  padding: 20px;
+  border: none;
+  background-color: #F2F3F4;
+  resize: none;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
 /* Reviews section */
 
 .review-section h1 {
@@ -239,6 +264,65 @@ div.col-xs-4.brewer-img {
   background-color: rgb(153,146,115);
 }
 
+.main-footer .footer-links a {
+  color: rgb(0,0,0);
+}
+
 .footer-fa {
 	padding: 10px;
+}
+
+
+/* Sign in/sign up page */
+
+.sign-btn {
+  padding: 20px;
+  width: 100%;
+}
+
+form.sign-form {
+  border: 3px solid #f1f1f1;
+  width: 80%;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.sign-container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  float:left;
+}
+
+/* User profile */
+
+div.profile {
+  padding: 10px;
+}
+
+input.profile {
+  padding: 10px;
+}
+
+button.update-btn, a.update-btn {
+  width: 100%;
+  padding: 20px;
 }
